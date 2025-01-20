@@ -12,11 +12,15 @@ Este repositorio fue creado como parte de la actividad grupal de la asignatura I
 
 </div>
 
-### **Propósito**
-
-
 
 ### **Objetivos**
+<div align="justify">
+  
+- Familiarizarnos con el uso de Git y su interfaz GitHub como herramientas de control de versiones y colaboración en este proyecto bioinformático de análisis de un dataset de pacientes
+- Crear nuestro repositorio con sus archivos y carpetas y aprender a editar en sus respectivas ramas
+- Promover la colaboración y el trabajo en equipo a través de la creación de un repositorio compartido.
+
+</div>
 
 
 ### **Bibliografía**
