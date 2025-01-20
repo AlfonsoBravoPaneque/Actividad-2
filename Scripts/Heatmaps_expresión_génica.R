@@ -8,7 +8,7 @@ set.seed(1995)
 datos <- select(data, id, starts_with("AQ_"))
 
 #Se toma la columna id como nombre de las filas del dataset
-datos<- column_to_rownames(datos, var ="id") 
+datos <- column_to_rownames(datos, var ="id") 
 
 #Se escalan los datos para estandarizar la expresión
 datos_escalados <- scale(datos)
@@ -34,7 +34,7 @@ pheatmap(datos_escalados,
 # Eliminación de los genes NOX5 y ADIPOQ, que muestran una expresión diferencial en el paciente 14. 
 datos2 <-select(data, id, starts_with("AQ_"), -"AQ_NOX5",-"AQ_ADIPOQ") 
 
-datos2<- column_to_rownames(datos2, var ="id") #Columna id como nombre de filas del dataset
+datos2 <- column_to_rownames(datos2, var ="id") #Columna id como nombre de filas del dataset
 
 datos_escalados2 <- scale(datos2) #Escalado de datos
 datos_escalados_t2 <- t(datos_escalados2) #Transposición de datos
