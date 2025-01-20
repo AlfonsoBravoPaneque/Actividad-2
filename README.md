@@ -4,7 +4,7 @@
 
 # **Actividad-2**
 
-### **Descripción**
+### **Propósito**
 
 <div align="justify">
   
@@ -12,6 +12,51 @@ Este repositorio fue creado como parte de la actividad grupal de la asignatura I
 
 </div>
 
+
+### **Objetivos**
+
+<div align="justify">
+
+- Familiarizarnos con el uso de Git y su interfaz GitHub como herramientas de control de versiones y colaboración en este proyecto bioinformático de análisis de un dataset de pacientes
+- Crear nuestro repositorio con sus archivos y carpetas y aprender a editar en sus respectivas ramas
+- Promover la colaboración y el trabajo en equipo a través de la creación de un repositorio compartido.
+- Utilizar y estudiar un dataset con diferentes muestras de pacientes y expresiones de genes para analizar la distribución de los genes según el tipo de tratamiento recibido, visualizar su comportamiento mediante heatmaps, determinar si siguen una distribución normal, y realizar los respectivos tests estadísticos para identificar si hay algún gen de interés que sea significativamente distinto en función del tipo de tratamiento y tumor. 
+
+</div>
+
+
+### **Estructura de las carpetas**
+
+📁 **Data/:**
+
+<div align="justify">
+
+La carpeta [*Data*](https://github.com/AlfonsoBravoPaneque/Actividad-2/tree/main/Data) contiene el *dataset* titulado [Dataset expresión genes.csv](https://github.com/AlfonsoBravoPaneque/Actividad-2/blob/main/Data/Dataset%20expresi%C3%B3n%20genes.csv), el cual recopila información sobre la expresión de 46 genes en 65 pacientes, obtenida mediante qPCR (PCR en tiempo real). Cada paciente está clasificado según distintos tipos de tratamiento (A o B) y características tumorales, incluyendo el tipo de tumor y su extensión
+
+Además de las variables principales de interés, el *dataset* también incluye información adicional de cada paciente, como variables bioquímicas, sintomáticas y sociodemográficas, que aunque no son el foco principal del estudio, pueden ser de utilidad para análisis complementarios.
+
+</div>
+
+
+📁 **Images/:**
+
+<div align="justify">
+
+La carpeta [*Images*](https://github.com/AlfonsoBravoPaneque/Actividad-2/tree/main/Images) contiene a su vez diferentes carpetas con los resultados proporcionados por los diferentes *scripts* presentes en el respositorio.
+
+-  La carpeta *Genes_distribution_box_plots* incluye diagramas de cajas (*box plots*) que muestran la expresión de cada gen en función del tratamiento seguido por los pacientes (A o B).
+-  La carpeta *Heatmaps* contiene mapas de calor (*heatmaps*) de expresión génica, representando la expresión de cada gen por paciente.
+-  La carpeta *Normality* almacena una tabla con el análisis de normalidad de los genes, realizado mediante el test de Anderson-Darling.
+-  La carpeta *Descriptive_statistics_and_hypothesis_testing* incluye una tabla descriptiva estratificada por tipo de tratamiento (A o B) y agrupada por tipos de tumor: colorrectal (CCR), pulmón (CP) y mama (CM).
+
+</div>
+
+📁 **Scripts/:**
+
+<div align="justify">
+
+La carpeta [*Scripts*](https://github.com/AlfonsoBravoPaneque/Actividad-2/tree/main/Scripts) contiene
+=======
 
 ### **Objetivos**
 <div align="justify">
@@ -25,5 +70,8 @@ Este repositorio fue creado como parte de la actividad grupal de la asignatura I
 
 
 ### **Bibliografía**
+
+
+
 
 
