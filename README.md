@@ -29,7 +29,9 @@ Este repositorio fue creado como parte de la actividad grupal de la asignatura I
 
 <div align="justify">
 
-La carpeta *Data* contiene el dataset () empleado para realizar los análisis.
+La carpeta *Data* contiene el *dataset* titulado [Dataset expresión genes.csv](https://github.com/AlfonsoBravoPaneque/Actividad-2/blob/main/Data/Dataset%20expresi%C3%B3n%20genes.csv), el cual recopila información sobre la expresión de 46 genes en 65 pacientes, obtenida mediante qPCR (PCR en tiempo real). Cada paciente está clasificado según distintos tipos de tratamiento (A o B) y características tumorales, incluyendo el tipo de tumor y su extensión
+
+Además de las variables principales de interés, el *dataset* también incluye información adicional de cada paciente, como variables bioquímicas, sintomáticas y sociodemográficas, que aunque no son el foco principal del estudio, pueden ser de utilidad para análisis complementarios.
 
 </div>
 
