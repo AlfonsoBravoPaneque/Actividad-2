@@ -19,6 +19,7 @@ Este repositorio fue creado como parte de la actividad grupal de la asignatura I
 - Familiarizarnos con el uso de Git y su interfaz GitHub como herramientas de control de versiones y colaboración en este proyecto bioinformático de análisis de un dataset de pacientes
 - Crear nuestro repositorio con sus archivos y carpetas y aprender a editar en sus respectivas ramas
 - Promover la colaboración y el trabajo en equipo a través de la creación de un repositorio compartido.
+- Utilizar y estudiar un dataset con diferentes muestras de pacientes y expresiones de genes para analizar la distribución de los genes según el tipo de tratamiento recibido, visualizar su comportamiento mediante heatmaps, determinar si siguen una distribución normal, y realizar los respectivos tests estadísticos para identificar si hay algún gen de interés que sea significativamente distinto en función del tipo de tratamiento y tumor. 
 
 </div>
 
