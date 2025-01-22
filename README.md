@@ -20,7 +20,7 @@ Este repositorio fue creado como parte de la actividad grupal de la asignatura I
 - Familiarizarnos con el uso de Git y su interfaz GitHub como herramientas de control de versiones y colaboración en este proyecto bioinformático de análisis de un dataset de pacientes.
 - Crear nuestro repositorio con sus archivos y carpetas y aprender a editar en sus respectivas ramas.
 - Promover la colaboración y el trabajo en equipo a través de la creación de un repositorio compartido.
-- Utilizar y estudiar un dataset con diferentes muestras de pacientes y expresiones de genes para analizar la distribución de los genes según el tipo de tratamiento recibido, visualizar su comportamiento mediante heatmaps, determinar si siguen una distribución normal, y realizar los respectivos tests estadísticos para identificar si hay algún gen de interés que sea significativamente distinto en función del tipo de tratamiento y tumor. 
+- Utilizar y estudiar un *dataset* con diferentes muestras de pacientes y expresiones de genes para analizar la distribución de los genes según el tipo de tratamiento recibido, visualizar su comportamiento mediante *heatmaps*, determinar si siguen una distribución normal, y realizar los respectivos tests estadísticos para identificar si hay algún gen de interés que presente diferencias significativas en función del tipo de tratamiento y tumor. 
 
 </div>
 
@@ -31,9 +31,9 @@ Este repositorio fue creado como parte de la actividad grupal de la asignatura I
 
 <div align="justify">
 
-La carpeta [*Data*](https://github.com/AlfonsoBravoPaneque/Actividad-2/tree/main/Data) contiene el *dataset* titulado [Dataset expresión genes.csv](https://github.com/AlfonsoBravoPaneque/Actividad-2/blob/main/Data/Dataset%20expresi%C3%B3n%20genes.csv), el cual recopila información sobre la expresión de 46 genes en 65 pacientes, obtenida mediante qPCR (PCR en tiempo real). Cada paciente está clasificado según distintos tipos de tratamiento (A o B) y características tumorales, incluyendo el tipo de tumor y su extensión
+La carpeta [*Data*](https://github.com/AlfonsoBravoPaneque/Actividad-2/tree/main/Data) contiene el *dataset* titulado [Dataset expresión genes.csv](https://github.com/AlfonsoBravoPaneque/Actividad-2/blob/main/Data/Dataset%20expresi%C3%B3n%20genes.csv), el cual recopila información sobre la expresión de 46 genes en 65 pacientes, obtenida mediante qPCR (PCR en tiempo real). Cada paciente está clasificado según distintos tipos de tratamiento (A o B) y características tumorales, incluyendo el tipo de tumor y su extensión.
 
-Además de las variables principales de interés, el *dataset* también incluye información adicional de cada paciente, como variables bioquímicas, sintomáticas y sociodemográficas, que aunque no son el foco principal del estudio, pueden ser de utilidad para análisis complementarios.
+Además de las variables principales de interés, el *dataset* también incluye información adicional de cada paciente, como variables bioquímicas, sintomáticas y sociodemográficas, que aunque no son el foco principal del estudio pueden ser de utilidad para análisis complementarios.
 
 </div>
 
@@ -58,10 +58,10 @@ La carpeta [*Images*](https://github.com/AlfonsoBravoPaneque/Actividad-2/tree/ma
 La carpeta [*Scripts*](https://github.com/AlfonsoBravoPaneque/Actividad-2/tree/main/Scripts) contiene el código, en lenguaje R, empleado para el análisis del conjunto de datos. 
 El código se organiza en cuatro ficheros independientes. Cada fichero corresponde a cada uno de los estudios realizados sobre los datos. 
 
-- El fichero *Normalidad_genes.R* realiza un análisis por test de Anderson-Darling para determinar la distribución normal de los genes. Proporcionando resultados útiles en la determinación de pruebas estadísticas adecuadas para el conjunto de datos. La tabla generada puede encontrarse en la carpeta *Normality* de la carpeta *Images*
-- El fichero *Distribución_genes_según_tratamiento.R* genera diagramas de cajas (*box plots*) que muestran la expresión diferencial para cada gen en función del tratamiento aplicado. Los *box plots* están almacenados en la carpeta *Genes_distribution_box_plots* en *Images*
-- El fichero *Heatmaps_expresión_génica.R* genera los mapas de calor (*heatmaps*) almacenados en la carpeta *Heatmaps*, carpeta *Images*
-- El fichero *Librerías_empleadas.R* recoge todas las librerías empleadas, en el resto de ficheros de la carpeta, que son necesarias para la realización del análisis en los datos.
+- El fichero *Normalidad_genes.R* contiene un análisis de Anderson-Darling para determinar la normalidad de los genes, proporcionando resultados útiles para la posterior selección de las pruebas estadísticas. La tabla generada puede encontrarse en la carpeta *Normality*, dentro de la carpeta *Images*.
+- El fichero *Distribución_genes_según_tratamiento.R* genera diagramas de cajas (*box plots*) que muestran la expresión diferencial para cada gen en función del tratamiento aplicado. Los *box plots* están almacenados en la carpeta *Genes_distribution_box_plots*, dentro de la carpeta *Images*.
+- El fichero *Heatmaps_expresión_génica.R* genera los mapas de calor (*heatmaps*) de expresión génica, almacenados en la carpeta *Heatmaps* dentro de la carpeta *Images*.
+- El fichero *Librerías_empleadas.R* recoge todas las librerías empleadas que son necesarias para la realización de los estudios.
 
 Los scripts permiten el análisis de los datos, facilitando la interpretación y generación de resultados reproducibles. 
 
