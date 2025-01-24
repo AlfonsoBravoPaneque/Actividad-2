@@ -62,6 +62,7 @@ El código se organiza en cuatro ficheros independientes. Cada fichero correspon
 - El fichero *Distribución_genes_según_tratamiento.R* genera diagramas de cajas (*box plots*) que muestran la expresión diferencial para cada gen en función del tratamiento aplicado. Los *box plots* están almacenados en la carpeta *Genes_distribution_box_plots*, dentro de la carpeta *Images*.
 - El fichero *Heatmaps_expresión_génica.R* genera los mapas de calor (*heatmaps*) de expresión génica, almacenados en la carpeta *Heatmaps* dentro de la carpeta *Images*.
 - El fichero *Librerías_empleadas.R* recoge todas las librerías empleadas que son necesarias para la realización de los estudios.
+- El fichero *Estadistica descriptiva y contrastes de hipótesis.R* recoge los análisis descriptivos realizados empleando la mediana y el rango intercuartílico.
 
 Los scripts permiten el análisis de los datos, facilitando la interpretación y generación de resultados reproducibles. 
 
