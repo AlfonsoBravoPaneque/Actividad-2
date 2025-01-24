@@ -26,8 +26,10 @@ Este repositorio fue creado como parte de la actividad grupal de la asignatura I
 
 ### **Bibliografía**
 
-[Tema_4_Bioestadística](https://cms.unir.net/file/=MXdv12b552buFmJmAEQmYyN3cjMycTN/esl-ES), 
-[Tema_5_Bioestadística](https://cms.unir.net/file/=MXdv12b552buFmJmAEQmYSM4gTOxYTN/esl-ES),
+[Tema_4_Bioestadística](https://cms.unir.net/file/=MXdv12b552buFmJmAEQmYyN3cjMycTN/esl-ES)
+
+[Tema_5_Bioestadística](https://cms.unir.net/file/=MXdv12b552buFmJmAEQmYSM4gTOxYTN/esl-ES)
+
 [Tema_6_Bioestadística](https://cms.unir.net/file/=MXdv12b552buFmJmAEQmYSM4gTOxYTN/esl-ES)
 
 
