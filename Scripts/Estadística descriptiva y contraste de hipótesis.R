@@ -72,7 +72,7 @@ table_2_gt <- table_2 %>%
 
 table_2_gt
 
-ediana_edad <- quantile(data$edad, probs = 0.5, na.rm = TRUE)
+mediana_edad <- quantile(data$edad, probs = 0.5, na.rm = TRUE)
 
 data <- data %>%
   mutate(edad_cat = if_else(edad < mediana_edad, 
