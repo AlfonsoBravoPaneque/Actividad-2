@@ -1,4 +1,4 @@
-Cargamos el dataset (data) con nuestros datos de interes:
+#Cargamos el dataset (data) con nuestros datos de interes:
 
 data <- read.csv("https://raw.githubusercontent.com/AlfonsoBravoPaneque/Actividad-2/refs/heads/main/Data/Dataset%20expresi%C3%B3n%20genes.csv")
 
