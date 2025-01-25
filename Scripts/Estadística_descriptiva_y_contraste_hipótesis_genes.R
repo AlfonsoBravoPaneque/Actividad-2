@@ -1,8 +1,10 @@
-#Cargamos el dataset (data) con nuestros datos de interes:
+# Cargamos el dataset (data) con nuestros datos de interes:
 
 data <- read.csv("https://raw.githubusercontent.com/AlfonsoBravoPaneque/Actividad-2/refs/heads/main/Data/Dataset%20expresi%C3%B3n%20genes.csv")
 
 df_genes <- select(data, trat, tumor, starts_with("AQ_")) # con select() de dplyr se selecciona lo deseado
+
+# Se realiza una tabla descriptiva de la expresión génica, estratificada por tipo de tratamiento y agrupada por tipos de tumor:
 
 table_2 <- df_genes %>%
   tbl_strata(
