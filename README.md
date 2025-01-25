@@ -4,7 +4,7 @@
 
 # **Actividad-2**
 
-### ▪ **Propósito** ▪
+### **Propósito**
 
 <div align="justify">
   
@@ -13,7 +13,7 @@ Este repositorio fue creado como parte de la actividad grupal de la asignatura I
 </div>
 
 
-### ▪ **Objetivos** ▪
+### **Objetivos**
 
 <div align="justify">
 
@@ -25,7 +25,7 @@ Este repositorio fue creado como parte de la actividad grupal de la asignatura I
 </div>
 
 
-### ▪ **Estructura de las carpetas** ▪
+### **Estructura de las carpetas**
 
 📁 **Bibliography/:**
 
@@ -65,7 +65,7 @@ La carpeta [*Images*](https://github.com/AlfonsoBravoPaneque/Actividad-2/tree/ma
 
 La carpeta [*Scripts*](https://github.com/AlfonsoBravoPaneque/Actividad-2/tree/main/Scripts) contiene
 
-### ▪ **Bibliografía** ▪
+### **Bibliografía**
 
 
 
