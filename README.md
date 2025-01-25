@@ -27,6 +27,14 @@ Este repositorio fue creado como parte de la actividad grupal de la asignatura I
 
 ### **Estructura de las carpetas**
 
+📁 **Bibliography/:**
+
+<div align="justify">
+
+La carpeta [*Bibliography*](https://github.com/AlfonsoBravoPaneque/Actividad-2/tree/main/Bibliography) contienel bilbiografía empleada para llevar a cabo los análisis de este repositorio.
+
+</div>
+
 📁 **Data/:**
 
 <div align="justify">
